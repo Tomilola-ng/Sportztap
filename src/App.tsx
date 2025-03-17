@@ -8,8 +8,6 @@ import PlayerDetailPage from "./pages/Player";
 import WellnessHubPage from "./pages/WellnessHub";
 // Component Imports
 import RouteSaver from "./components/reusable/LastRoute";
-// CSS Imports
-import "./App.css";
 
 function App() {
   const lastRoute = localStorage.getItem("lastRoute");
