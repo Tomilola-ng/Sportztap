@@ -61,3 +61,13 @@ declare type _player = {
   createdAt: string; // Timestamp of profile creation
   updatedAt?: string; // Timestamp of last profile update
 };
+
+declare type _resource = {
+  id: number;
+  title: string;
+  type: "Video" | "Article" | "Podcast";
+  thumbnail: string;
+  source: string;
+  url: string;
+  rating: number;
+};

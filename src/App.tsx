@@ -4,11 +4,12 @@ import { Route, Navigate, Routes } from "react-router-dom";
 // Page Imports
 import HomePage from "./pages/Home";
 import ScoutingPage from "./pages/Scouting";
+import PlayerDetailPage from "./pages/Player";
+import WellnessHubPage from "./pages/WellnessHub";
 // Component Imports
 import RouteSaver from "./components/reusable/LastRoute";
 // CSS Imports
 import "./App.css";
-import PlayerDetailPage from "./pages/Player";
 
 function App() {
   const lastRoute = localStorage.getItem("lastRoute");
@@ -21,6 +22,7 @@ function App() {
           <Route path="player">
             <Route path=":playerId" element={<PlayerDetailPage />} />\
           </Route>
+          <Route path="/wellness-hub" element={<WellnessHubPage />} />
           {lastRoute ? (
             <Route path="*" element={<Navigate to={lastRoute} replace />} />
           ) : (
