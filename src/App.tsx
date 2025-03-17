@@ -8,6 +8,7 @@ import ScoutingPage from "./pages/Scouting";
 import RouteSaver from "./components/reusable/LastRoute";
 // CSS Imports
 import "./App.css";
+import PlayerDetailPage from "./pages/Player";
 
 function App() {
   const lastRoute = localStorage.getItem("lastRoute");
@@ -17,6 +18,9 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/scouting" element={<ScoutingPage />} />
+          <Route path="player">
+            <Route path=":playerId" element={<PlayerDetailPage />} />\
+          </Route>
           {lastRoute ? (
             <Route path="*" element={<Navigate to={lastRoute} replace />} />
           ) : (
