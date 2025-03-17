@@ -24,16 +24,6 @@ export default function Faq() {
           <Accordion type="single" collapsible className="w-full">
             {[
               {
-                question: "How do I create a player profile?",
-                answer:
-                  "To create a player profile, navigate to the Scouting page and click on 'Create Profile'. Fill in your details, upload videos and photos of your performances, and submit for review.",
-              },
-              {
-                question: "Is SportzTap free to use?",
-                answer:
-                  "Yes, SportzTap is free for players to create profiles and access basic features. Premium features for advanced analytics and priority visibility are available through subscription plans.",
-              },
-              {
                 question: "How does the scouting process work?",
                 answer:
                   "Scouts and club representatives can browse player profiles, filter by specific criteria, and contact players directly through the platform. We verify all scout accounts to ensure legitimacy.",

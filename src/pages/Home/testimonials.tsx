@@ -95,18 +95,21 @@ export default function Testimonials() {
               role: "Player",
               quote:
                 "SportzTap gave me the visibility I needed. I was scouted by a professional club after just two months on the platform.",
+              image: "https://avatar.iran.liara.run/public/84",
             },
             {
               name: "Coach Adebayo",
               role: "Youth Coach",
               quote:
                 "The mental wellness resources have been invaluable for my team. I've seen significant improvements in their performance and resilience.",
+              image: "https://avatar.iran.liara.run/public/56",
             },
             {
               name: "Sarah Johnson",
               role: "Scout",
               quote:
                 "As a scout, SportzTap has made it easier to discover and evaluate talent across Nigeria, even in remote areas.",
+              image: "https://avatar.iran.liara.run/public/98",
             },
           ].map((testimonial, index) => (
             <motion.div
@@ -125,9 +128,7 @@ export default function Testimonials() {
                   >
                     <div className="relative h-16 w-16 rounded-full overflow-hidden">
                       <img
-                        src={`/placeholder.svg?height=64&width=64&text=${testimonial.name.charAt(
-                          0
-                        )}`}
+                        src={testimonial.image}
                         alt={testimonial.name}
                         className="object-cover"
                       />
@@ -137,7 +138,7 @@ export default function Testimonials() {
                   <div className="flex justify-center">
                     {[1, 2, 3, 4, 5].map((star, i) => (
                       <motion.div key={star} custom={i} variants={starVariants}>
-                        <StarIcon className="h-4 w-4 fill-primary text-primary" />
+                        <StarIcon className="h-4 w-4 fill-yellow=400 text-yellow-400" />
                       </motion.div>
                     ))}
                   </div>

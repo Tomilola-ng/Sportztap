@@ -41,72 +41,24 @@ export function Footer() {
             </ul>
           </div>
 
-          <div>
-            <h3 className="text-sm font-medium mb-4">Company</h3>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <Link
-                  to="/about"
-                  className="text-muted-foreground hover:text-primary"
-                >
-                  About Us
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/contact"
-                  className="text-muted-foreground hover:text-primary"
-                >
-                  Contact
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/privacy"
-                  className="text-muted-foreground hover:text-primary"
-                >
-                  Privacy Policy
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/terms"
-                  className="text-muted-foreground hover:text-primary"
-                >
-                  Terms of Service
-                </Link>
-              </li>
-            </ul>
-          </div>
+          <div></div>
 
           <div>
             <h3 className="text-sm font-medium mb-4">Connect</h3>
             <div className="flex space-x-4">
-              <Link
-                to="https://instagram.com"
-                className="text-muted-foreground hover:text-primary"
-              >
+              <Link to="/" className="text-muted-foreground hover:text-primary">
                 {SMIcons.instagram}
                 <span className="sr-only">Instagram</span>
               </Link>
-              <Link
-                to="https://twitter.com"
-                className="text-muted-foreground hover:text-primary"
-              >
+              <Link to="/" className="text-muted-foreground hover:text-primary">
                 {SMIcons.twitter}
                 <span className="sr-only">Twitter</span>
               </Link>
-              <Link
-                to="https://facebook.com"
-                className="text-muted-foreground hover:text-primary"
-              >
+              <Link to="/" className="text-muted-foreground hover:text-primary">
                 {SMIcons.facebook}
                 <span className="sr-only">Facebook</span>
               </Link>
-              <Link
-                to="https://youtube.com"
-                className="text-muted-foreground hover:text-primary"
-              >
+              <Link to="/" className="text-muted-foreground hover:text-primary">
                 {SMIcons.youtube}
                 <span className="sr-only">YouTube</span>
               </Link>
