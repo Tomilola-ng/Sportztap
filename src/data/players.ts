@@ -49,7 +49,7 @@ export const NigerianPlayers: _player[] = [
     participationInWellnessPrograms: ["Yoga", "Mindfulness", "Team Building"],
     preferredMentalSupport: "Sports Psychologist",
 
-    profilePicture: "https://example.com/players/chidera_okonkwo.jpg",
+    profilePicture: "/guy-01.jpeg",
 
     createdAt: "2022-07-15T08:30:00Z",
     updatedAt: "2024-12-03T14:45:00Z",
@@ -102,7 +102,7 @@ export const NigerianPlayers: _player[] = [
     participationInWellnessPrograms: ["Personal Coaching", "Meditation"],
     preferredMentalSupport: "Mentor",
 
-    profilePicture: "https://example.com/players/oluwaseun_adeyemi.jpg",
+    profilePicture: "/guy-02.jpeg",
 
     createdAt: "2022-01-20T12:15:00Z",
     updatedAt: "2024-10-18T09:30:00Z",
@@ -160,7 +160,7 @@ export const NigerianPlayers: _player[] = [
     ],
     preferredMentalSupport: "Team Therapist",
 
-    profilePicture: "https://example.com/players/amina_ibrahim.jpg",
+    profilePicture: "/girl-01.jpeg",
 
     createdAt: "2022-03-12T10:45:00Z",
     updatedAt: "2025-01-05T16:20:00Z",
@@ -212,7 +212,7 @@ export const NigerianPlayers: _player[] = [
     participationInWellnessPrograms: ["Pressure Management", "Focus Training"],
     preferredMentalSupport: "Personal Coach",
 
-    profilePicture: "https://example.com/players/victor_okafor.jpg",
+    profilePicture: "/guy-03.jpeg",
 
     createdAt: "2022-05-28T14:20:00Z",
     updatedAt: "2024-09-14T11:35:00Z",
@@ -268,7 +268,7 @@ export const NigerianPlayers: _player[] = [
     ],
     preferredMentalSupport: "Sports Psychologist",
 
-    profilePicture: "https://example.com/players/folake_ogunleye.jpg",
+    profilePicture: "/girl-02.jpeg",
 
     createdAt: "2022-08-10T09:15:00Z",
     updatedAt: "2024-11-22T13:40:00Z",
@@ -326,7 +326,7 @@ export const NigerianPlayers: _player[] = [
     ],
     preferredMentalSupport: "Mentor",
 
-    profilePicture: "https://example.com/players/emmanuel_nwachukwu.jpg",
+    profilePicture: "/guy-04.jpeg",
 
     createdAt: "2022-04-18T11:30:00Z",
     updatedAt: "2024-08-25T17:55:00Z",
@@ -381,7 +381,7 @@ export const NigerianPlayers: _player[] = [
     participationInWellnessPrograms: ["Team Counseling", "Yoga"],
     preferredMentalSupport: "Team Therapist",
 
-    profilePicture: "https://example.com/players/chinyere_eze.jpg",
+    profilePicture: "/girl-03.jpeg",
 
     createdAt: "2023-01-05T13:45:00Z",
     updatedAt: "2024-12-12T10:15:00Z",
@@ -439,7 +439,7 @@ export const NigerianPlayers: _player[] = [
     ],
     preferredMentalSupport: "Personal Coach",
 
-    profilePicture: "https://example.com/players/babatunde_afolayan.jpg",
+    profilePicture: "/placeholder-02.jpeg",
 
     createdAt: "2022-02-14T08:20:00Z",
     updatedAt: "2024-10-30T15:10:00Z",
@@ -497,7 +497,7 @@ export const NigerianPlayers: _player[] = [
     ],
     preferredMentalSupport: "Sports Psychologist",
 
-    profilePicture: "https://example.com/players/ngozi_onyeka.jpg",
+    profilePicture: "/girl-04.jpeg",
 
     createdAt: "2023-03-22T10:05:00Z",
     updatedAt: "2025-01-17T09:30:00Z",
@@ -551,7 +551,7 @@ export const NigerianPlayers: _player[] = [
     participationInWellnessPrograms: ["Confidence Building", "Team Building"],
     preferredMentalSupport: "Mentor",
 
-    profilePicture: "https://example.com/players/kehinde_adebayo.jpg",
+    profilePicture: "/placeholder-02.jpeg",
 
     createdAt: "2022-06-30T16:40:00Z",
     updatedAt: "2024-11-05T12:25:00Z",

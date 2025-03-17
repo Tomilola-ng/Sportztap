@@ -1,6 +1,5 @@
 import { Link } from "react-router";
 
-import { SMIcons } from "@/components/reusable/social-media-icons";
 import { ClubIcon as Football } from "lucide-react";
 
 export function Footer() {
@@ -43,27 +42,7 @@ export function Footer() {
 
           <div></div>
 
-          <div>
-            <h3 className="text-sm font-medium mb-4">Connect</h3>
-            <div className="flex space-x-4">
-              <Link to="/" className="text-muted-foreground hover:text-primary">
-                {SMIcons.instagram}
-                <span className="sr-only">Instagram</span>
-              </Link>
-              <Link to="/" className="text-muted-foreground hover:text-primary">
-                {SMIcons.twitter}
-                <span className="sr-only">Twitter</span>
-              </Link>
-              <Link to="/" className="text-muted-foreground hover:text-primary">
-                {SMIcons.facebook}
-                <span className="sr-only">Facebook</span>
-              </Link>
-              <Link to="/" className="text-muted-foreground hover:text-primary">
-                {SMIcons.youtube}
-                <span className="sr-only">YouTube</span>
-              </Link>
-            </div>
-          </div>
+          <div></div>
         </div>
 
         <div className="mt-8 border-t pt-8 flex flex-col md:flex-row justify-between items-center">
